@@ -26,9 +26,6 @@
 - Combina operações para eficiência.
 - Evita cálculos desnecessários.
 
-## Minimizando Shuffling:
-- Prefira transformações locais como `combineByKey` em vez de `groupByKey`.
-- Use `coalesce` para reduzir partições e `repartition` para redistribuir.
 
 # Estruturas PySpark
 
